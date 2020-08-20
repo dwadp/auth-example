@@ -1,0 +1,19 @@
+db:
+    mongo:
+        username:
+        password:
+        name:
+        host:
+        port: # Ignore port when using srv uri (mongodb+srv) prefix
+        prefix:
+        suffix:
+
+    redis:
+        host:
+        port:
+        password:
+        index:
+
+auth:
+    secret: "your secret"
+    expiry: 2 # hours
